@@ -1,6 +1,6 @@
 # testimony-react
 
-This is a 🔥 basic project made with React as practice.
+This is a 🔥 [basic project](https://alevroses.github.io/react__click-counter/) made with React as practice.
 
 ![responsive](https://i.postimg.cc/9QrXkzsq/click-counter.png)
 
