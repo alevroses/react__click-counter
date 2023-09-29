@@ -12,7 +12,7 @@ graph LR
     B --> C[figure > img \n logo]
     B --> D[div \n container]
     D --> E[Counter \n div]
-    D --> F[Button \n click - restart]
+    D --> F[Button \n click restart]
 ```
 
 ## Getting Started with Create React App
@@ -85,5 +85,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 #### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react__click-counter
-This is a basic project made with React as practice.
