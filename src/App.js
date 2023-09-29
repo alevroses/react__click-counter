@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./stylesheets/App.css";
+import Logo from "./images/freecodecamp-logo.png";
+import { Counter } from "./components/Counter.jsx";
+import { Button } from "./components/Button";
 
 function App() {
+  const [numClicks, setNumClicks] = useState(0);
+
+  const addClick = () => {
+    setNumClicks(numClicks + 1);
+  };
+
+  const restartClick = () => {
+    setNumClicks(0);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <figure className="figure">
+        <img
+          className="figure__logo"
+          src={Logo}
+          alt="Logo"
+        />
+      </figure>
+      <div className="container">
+        <Counter numClicks={numClicks} />
+        <Button
+          text="Click"
+          isClickButton={true}
+          handleClick={addClick}
+        />
+        <Button
+          text="Restart"
+          isClickButton={false}
+          handleClick={restartClick}
+        />
+      </div>
+    </>
   );
 }
 
-export default App;
+export { App };
