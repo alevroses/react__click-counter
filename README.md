@@ -1,6 +1,8 @@
 # testimony-react
 
-This is a 🔥 basic project made with React.
+This is a 🔥 basic project made with React as practice.
+
+![responsive]()
 
 ## Project Structure
 
@@ -9,8 +11,10 @@ graph LR
     A[root \n index] --> B[App]
     B --> C[figure > img \n logo]
     B --> D[div \n container]
-    D --> E[Counter \n div]
-    D --> F[Button \n click and restart]
+    D --> E[Counter > div \n Component]
+    D --> F[Button \n Component]
+    F --> G[click]
+    F --> H[restart]
 ```
 
 ## Getting Started with Create React App
