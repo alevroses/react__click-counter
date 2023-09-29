@@ -10,7 +10,7 @@ graph LR
     B --> C[figure > img \n logo]
     B --> D[div \n container]
     D --> E[Counter \n div]
-    D --> F[Button \n click \\- restart]
+    D --> F[Button \n click and restart]
 ```
 
 ## Getting Started with Create React App
