@@ -1,8 +1,6 @@
 # testimony-react
 
-This is a 🔥 [basic project](https://alevroses.github.io/testimony-react/) made with React.
-
-![responsive]()
+This is a 🔥 basic project made with React.
 
 ## Project Structure
 
@@ -12,7 +10,7 @@ graph LR
     B --> C[figure > img \n logo]
     B --> D[div \n container]
     D --> E[Counter \n div]
-    D --> F[Button \n click restart]
+    D --> F[Button \n click - restart]
 ```
 
 ## Getting Started with Create React App
