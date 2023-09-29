@@ -2,7 +2,7 @@
 
 This is a 🔥 basic project made with React as practice.
 
-![responsive]()
+![responsive](https://i.postimg.cc/9QrXkzsq/click-counter.png)
 
 ## Project Structure
 
